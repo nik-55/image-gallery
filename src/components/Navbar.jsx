@@ -17,6 +17,11 @@ const Navbar = () => {
             <li className={`mx-2 text-blue-400 hover:text-white ${pathName==="/isr"?"text-yellow-500":""}`}><Link href={"/isr"}>ISR</Link></li>
             <li className={`mx-2 text-blue-400 hover:text-white ${pathName==="/client"?"text-yellow-500":""}`}><Link href={"/client"}>Client</Link></li>
         </ul>
+        <ul className="flex">
+          <span className="bg-green-700 px-2 p-[2px]">Imagelist</span>
+        <li className={`mx-2 text-blue-400 hover:text-white ${pathName==="/imagelist"?"text-yellow-500":""}`}><Link href={"/imagelist"}>Optimized</Link></li>
+        <li className={`mx-2 text-blue-400 hover:text-white ${pathName==="/imagelist/notoptimized"?"text-yellow-500":""}`}><Link href={"/imagelist/notoptimized"}>NotOptimized</Link></li>
+        </ul>
     </div>
   )
 }

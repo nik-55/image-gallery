@@ -5,6 +5,8 @@ import Footer from '@/components/Footer'
 export const metadata = {
   title: 'Image Gallery',
   metadataBase: new URL('https://acme.com'),
+  property: "og:image",
+  content: "<generated>", 
   description: 'Learn NextJS',
 }
 
